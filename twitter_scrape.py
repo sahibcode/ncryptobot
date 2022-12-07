@@ -1,7 +1,7 @@
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
 
-
+''' This can scrape thousands of tweets within minutes can be used for ML models training and much more'''
 
 
 # your query goes here, account to scrape and since when to scrape
