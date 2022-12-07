@@ -1,11 +1,12 @@
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
 
-''' This can scrape thousands of tweets within minutes can be used for ML models training and much more'''
+''' This can scrape thousands of tweets within minutes can be used for ML models training and much more
+Just change account name, Until, Since in line 9 and limit in line 15'''
 
 
 # your query goes here, account to scrape and since when to scrape
-query = "(from:MadNews_io) until:2022-12-01 since:2022-01-01"
+query = "(from:elonmusk) until:2022-12-01 since:2022-01-01"
 
 # creating list to append tweet data to
 tweets = []
