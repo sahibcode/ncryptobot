@@ -34,4 +34,4 @@ data.to_csv(symbol+'.csv', index = None, header=True)
 
 
 # convert time in data to normal time from milliseconds of binance
-# df['open_time'] = pd.to_datetime(df['open_time'], unit='ms').dt.tz_localize('UTC').dt.tz_convert('Asia/Karachi')
+# df['open_time'] = pd.to_datetime(df['open_time'], unit='ms').dt.tz_localize('UTC').dt.tz_convert('Europe/Berlin')
